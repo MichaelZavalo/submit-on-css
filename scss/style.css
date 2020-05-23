@@ -1,0 +1,90 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  max-width: 1170px;
+  padding: 100px 0;
+  background-color: beige;
+}
+
+form {
+  background-color: rgba(245, 253, 249, 0.623);
+  padding: 115px 81px 45px 81px;
+  width: 431px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input {
+  margin-top: 15px;
+  line-height: 1;
+  font-size: 14px;
+  width: 100%;
+}
+
+.submit {
+  border-radius: 50%;
+  background-color: #389640;
+  width: 67px;
+  height: 67px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 32px;
+}
+
+.submit::after {
+  content: "";
+  position: absolute;
+  border-bottom: 10px solid black;
+}
+
+.submit1 {
+  border-radius: 50%;
+  background-color: #389640;
+  width: 67px;
+  height: 67px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 32px;
+}
+
+.submit1::after {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 11px;
+  width: 15px;
+  border: 5px solid #ffffff;
+  border-radius: 5%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.submit1::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 30px;
+  border: 5px solid #ffffff;
+  border-radius: 5%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+/*# sourceMappingURL=style.css.map */
